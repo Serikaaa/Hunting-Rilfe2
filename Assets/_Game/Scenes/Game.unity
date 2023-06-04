@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1525,12 +1525,12 @@ PrefabInstance:
     - target: {fileID: 7764479637636136461, guid: e14ddf22ce238214bafffa97cba79ee6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.11
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 7764479637636136461, guid: e14ddf22ce238214bafffa97cba79ee6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.72
+      value: 2.78
       objectReference: {fileID: 0}
     - target: {fileID: 7764479637636136461, guid: e14ddf22ce238214bafffa97cba79ee6,
         type: 3}
@@ -1589,13 +1589,18 @@ PrefabInstance:
       objectReference: {fileID: 1980591468}
     - target: {fileID: 7764479637636136462, guid: e14ddf22ce238214bafffa97cba79ee6,
         type: 3}
+      propertyPath: baseEmemies
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7764479637636136462, guid: e14ddf22ce238214bafffa97cba79ee6,
+        type: 3}
       propertyPath: enemiesPerSecond
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7764479637636136462, guid: e14ddf22ce238214bafffa97cba79ee6,
         type: 3}
       propertyPath: timeBetweenWaves
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e14ddf22ce238214bafffa97cba79ee6, type: 3}

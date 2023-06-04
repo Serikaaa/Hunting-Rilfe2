@@ -51,19 +51,6 @@ public class Enemy1 : NetworkBehaviour
         }
        
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            
-        }else if (collision.gameObject.CompareTag("Bullet"))
-        {
-            Destroy(collision.gameObject);
-            Destroy(gameObject);
-        }
-    }
-
     private void Attack()
     {
         

@@ -17,6 +17,7 @@ public class EnemyHealth : NetworkBehaviour
         health -= damage;
         if (health <= 0)
         {
+            EnemySpawner.onEnemyDestroy.Invoke();
             Destroy(gameObject);
         }
     }
