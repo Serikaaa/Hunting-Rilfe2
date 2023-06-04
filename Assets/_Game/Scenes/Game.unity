@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3321,7 +3321,7 @@ Transform:
   - {fileID: 24011770}
   - {fileID: 616813749}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &222531834
 MonoBehaviour:
@@ -5044,7 +5044,7 @@ Transform:
   m_Children:
   - {fileID: 911058073}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!213 &537460044
 Sprite:
@@ -19701,9 +19701,9 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {r: 8.678e-41, g: 8.678e-41, b: 8.678e-41, a: 8.678e-41}
   - m_RefCount: 0
-    m_Data: {r: 9.547e-41, g: 9.547e-41, b: 9.547e-41, a: 9.547e-41}
+    m_Data: {r: 8.8447e-41, g: 8.8447e-41, b: 8.8447e-41, a: 8.8447e-41}
   - m_RefCount: 0
-    m_Data: {r: 9.547e-41, g: 9.547e-41, b: 9.547e-41, a: 9.547e-41}
+    m_Data: {r: 8.8447e-41, g: 8.8447e-41, b: 8.8447e-41, a: 8.8447e-41}
   - m_RefCount: 1
     m_Data: {r: 0.79688996, g: 0.50130963, b: 0.540448, a: 1}
   - m_RefCount: 1
@@ -25464,7 +25464,7 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {r: 8.6805e-41, g: 8.6805e-41, b: 8.6805e-41, a: 8.6805e-41}
   - m_RefCount: 0
-    m_Data: {r: 9.551e-41, g: 9.551e-41, b: 9.551e-41, a: 9.551e-41}
+    m_Data: {r: 8.8486e-41, g: 8.8486e-41, b: 8.8486e-41, a: 8.8486e-41}
   - m_RefCount: 0
     m_Data: {r: 8.6805e-41, g: 8.6805e-41, b: 8.6805e-41, a: 8.6805e-41}
   - m_RefCount: 9
@@ -25474,7 +25474,7 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {r: 8.6805e-41, g: 8.6805e-41, b: 8.6805e-41, a: 8.6805e-41}
   - m_RefCount: 0
-    m_Data: {r: 9.551e-41, g: 9.551e-41, b: 9.551e-41, a: 9.551e-41}
+    m_Data: {r: 8.8486e-41, g: 8.8486e-41, b: 8.8486e-41, a: 8.8486e-41}
   - m_RefCount: 0
     m_Data: {r: 8.6805e-41, g: 8.6805e-41, b: 8.6805e-41, a: 8.6805e-41}
   - m_RefCount: 0
@@ -26492,7 +26492,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -26634,7 +26634,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00011444, y: 406}
+  m_AnchoredPosition: {x: 0.00012207031, y: 406}
   m_SizeDelta: {x: 988.3255, y: 112.314}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1998639794

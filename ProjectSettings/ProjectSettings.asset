@@ -101,7 +101,7 @@ PlayerSettings:
   xboxEnableFitness: 0
   visibleInBackground: 1
   allowFullscreenSwitch: 1
-  fullscreenMode: 1
+  fullscreenMode: 3
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -875,10 +875,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 94b05e71-bc07-4ba5-9a12-0c3f3b14298c
+  cloudProjectId: 89d70b17-2504-4ddc-bf86-711b1a68441f
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Relay (1)
+  projectName: Relay
   organizationId: hoangduyt511
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
