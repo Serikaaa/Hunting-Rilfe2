@@ -1,4 +1,1 @@
-# Unity-Matchmaking
-An example project utilizing lobby, relay and netcode
-
-Open the folder using Unity Hub.
+The best game ever with my friends https://github.com/Submadiq && https://github.com/hahavile
