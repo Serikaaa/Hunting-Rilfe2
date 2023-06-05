@@ -127,4 +127,9 @@ public class EnemySpawner : NetworkBehaviour
         return Mathf.RoundToInt(baseEmemies * Mathf.Pow(currentWave, difficultyScalingFactor));
     }
 
+    public int getWaveRemaining()
+    {
+        return waveRemaining;
+    }
+
 }
