@@ -8,13 +8,13 @@ using UnityEngine.SceneManagement;
 
 public class RegisterScripts : MonoBehaviour
 {
-    // Start is called before the first frame update
     string baseUrl = "http://localhost/Hunting_Rifle_database/";
     public TMP_InputField accountUserName;
     public TMP_InputField accountPassword;
     public TMP_Text info;
     private string currentUsername;
     private string ukey = "accountusername";
+    // Start is called before the first frame update
     void Start()
     {
         currentUsername = "";

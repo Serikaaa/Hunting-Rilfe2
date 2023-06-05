@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LoginScripts : MonoBehaviour
 {
@@ -13,7 +14,6 @@ public class LoginScripts : MonoBehaviour
     public TMP_Text info;
     private string currentUsername;
     private string ukey = "accountusername";
-
     // Start is called before the first frame update
     void Start()
     {
@@ -75,7 +75,7 @@ public class LoginScripts : MonoBehaviour
                 {
                     PlayerPrefs.SetString(ukey, uName);
                     //info.text = "Login success with username " + uName;
-                    SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+                    SceneManager.LoadSceneAsync("Auth");
 
                 }
                 else
