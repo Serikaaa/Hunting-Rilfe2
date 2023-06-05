@@ -42,10 +42,6 @@ public class EnemySpawner : NetworkBehaviour
 
     private void Start()
     {
-        if (!IsHost)
-        {
-            ReadyBtn.enabled = false;
-        }
         waveRemaining = numsOfWave;
         waveLeft.text = "Wave Remaining: " + waveRemaining.ToString();
         announcer.text = "Survive for 5 wave";
@@ -91,7 +87,7 @@ public class EnemySpawner : NetworkBehaviour
         currentWave++;
         StartCoroutine(StartWave());
     }
-[ServerRpc]
+[ServerRpc(RequireOwnership =false)]
     private void EnemyDestroyServerRpc()
     {
         EnemyDestroyClientRpc();
