@@ -160,8 +160,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 514, y: -254}
-  m_SizeDelta: {x: 464, y: 255}
+  m_AnchoredPosition: {x: 623, y: 291}
+  m_SizeDelta: {x: 326.0277, y: 163.0182}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &183360269
 MonoBehaviour:
@@ -205,7 +205,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 21300000, guid: 78da41a6915905840a883a647f53643e, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: 0bdf19081edee6843aa0193e7696a7bc, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -263,7 +263,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2168de032df1429448a8dc1845f458e8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e85956f73296037469196471bb19de8d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -657,8 +657,8 @@ MonoBehaviour:
   m_VerticalScrollbarEventHandler: {fileID: 0}
   m_LayoutGroup: {fileID: 0}
   m_ScrollSensitivity: 1
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -748,8 +748,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 72e318e72ef900d4f96ad0e0845d9149, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 4228f21dc65bc2242aecd5dec02f04e4, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1495,8 +1495,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 72e318e72ef900d4f96ad0e0845d9149, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 4228f21dc65bc2242aecd5dec02f04e4, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1550,7 +1550,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: -265}
+  m_AnchoredPosition: {x: 6, y: -247}
   m_SizeDelta: {x: 464, y: 255}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1589701281
@@ -1653,7 +1653,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2168de032df1429448a8dc1845f458e8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 503da560a4df9c14482224c7e5fcb261, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -47,6 +47,10 @@ public class LoginScripts : MonoBehaviour
     {
         
     }
+    public void Quit()
+    {
+        Application.Quit();
+    }
 
     public void AccountLogin()
     {
